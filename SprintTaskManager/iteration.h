@@ -1,9 +1,9 @@
 #ifndef ITERATION_H
 #define ITERATION_H
 
-#include "task.h"
+#include "taskcontainer.h"
 
-class Iteration : public Task
+class Iteration : public TaskContainer
 {
 public:
     Iteration();

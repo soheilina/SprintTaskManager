@@ -12,8 +12,7 @@ TaskContainer::~TaskContainer()
 {
 }
 
-void TaskContainer:: Get(vector<Task*> tl, Attachment a)
+void TaskContainer:: Get(vector<Task*> tskLst)
 {
-    taskList = tl;
-    attached = a;
+    tasksList = tskLst;
 }

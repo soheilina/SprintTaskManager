@@ -1,9 +1,9 @@
 #ifndef BACKLOG_H
 #define BACKLOG_H
 
-#include "task.h"
+#include "taskcontainer.h"
 
-class Backlog : public Task
+class Backlog : public TaskContainer
 {
 public:
     Backlog();

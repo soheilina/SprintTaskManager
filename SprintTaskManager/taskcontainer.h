@@ -14,11 +14,10 @@ class TaskContainer
 public:
     TaskContainer();
     ~ TaskContainer();
-    void Get(vector<Task*> tl, Attachment a);
+    void Get(vector<Task*> tskLst);
 
 private:
-    vector<Task*> taskList;
-    Attachment attached;
+    vector<Task*> tasksList;
 };
 
 #endif // TASKCONTAINER_H
